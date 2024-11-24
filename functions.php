@@ -30,11 +30,12 @@ add_action("after_setup_theme", "autos360_bootstrapping");
 function autos360_assets(){
     wp_enqueue_style("autos360", get_stylesheet_uri());
     wp_enqueue_style('banner-style', get_template_directory_uri() . '/assets/styles/banner.css');
+
+    // tailwind css
     wp_enqueue_style('tailwind-style', get_template_directory_uri() . '/assets/styles/tailwind-output.css', array(), '1.0');
 
-//     wp_enqueue_style("bootstrap", "//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
+    // font awesome
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css', array(), '6.0.0', 'all');
 
-//     wp_enqueue_script("bootstrap-js", "//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
-// ",null, "5.3.3", true);
 }
 add_action("wp_enqueue_scripts", "autos360_assets");
