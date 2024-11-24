@@ -1,0 +1,21 @@
+/*
+Theme Name: autos360
+Theme URI: #
+Author: Emon Shimoul
+Autor URI: https://emonshimoul.netlify.app/
+Description: AutoS 360 Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: lpg, conversion
+Text Domain: autos360
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .banner h2 {
+  color: red;
+} */

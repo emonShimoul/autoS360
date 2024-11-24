@@ -1,0 +1,16 @@
+{
+  "name": "autos360",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "starttailwind": "npx tailwindcss -i ./assets/styles/tailwind.css -o ./assets/styles/tailwind-output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
