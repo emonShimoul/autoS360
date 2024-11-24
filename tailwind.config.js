@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./*.php", "./template-parts/*.php"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        banner: "url('https://i.ibb.co.com/Ph9bqNh/banner.jpg')",
+      },
+
+      fontFamily: {
+        daysOneRegular: ["Days One", "sans-serif"], // Add Google Font
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
