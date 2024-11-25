@@ -3,6 +3,10 @@ module.exports = {
   content: ["./*.php", "./template-parts/*.php"],
   theme: {
     extend: {
+      colors: {
+        primaryColor: "#1E40AF",
+      },
+
       backgroundImage: {
         banner: "url('https://i.ibb.co.com/Ph9bqNh/banner.jpg')",
       },
