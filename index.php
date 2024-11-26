@@ -4,5 +4,7 @@
 <?php get_template_part("services"); ?>
 <?php get_template_part("testimonials"); ?>
 <?php get_template_part("contact"); ?>
+
+<?php get_footer(); ?>
 </body>
 </html>
