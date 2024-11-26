@@ -1,4 +1,4 @@
-<div class="services bg-gray-100 py-28 px-32">
+<div class="services bg-gray-100 py-28 px-20">
     <div class="services-top  flex gap-24">
         <div class="services-left w-1/2">
             <img src="https://i.ibb.co.com/gVBVX1m/thumb-1.jpg" alt="Mechanic 1">
@@ -14,7 +14,7 @@
     <div class="services-bottom mt-28">
         <p class="uppercase text-primaryColor font-semibold mb-1"><i class="fa-brands fa-think-peaks"></i> What we offer</p>
         <h4 class="text-2xl font-daysOneRegular uppercase mb-3">Explore our services</h4>
-        <div class="flex gap-4 justify-between">
+        <div class="flex gap-8 justify-between">
             <div class="bg-white">
                 <img src="https://i.ibb.co.com/0MsNGTg/thumb-3.jpg" alt="Service 1">
                 <h5 class="py-3 text-center text-primaryColor font-daysOneRegular">Oil & Fluids services</h5>
