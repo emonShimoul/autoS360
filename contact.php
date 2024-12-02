@@ -1,4 +1,4 @@
-<div class="contact bg-gray-100 pb-28 relative">
+<div id="contact-us" class="contact bg-gray-100 pb-28 relative">
     <div class="contact-details bg-primaryColor text-white px-16 pt-28 pb-48 w-4/5 ">
         <p class="uppercase font-daysOneRegular mb-1"><i class="fa-brands fa-think-peaks"></i> make appointment</p>
         <div class="w-2/3">
