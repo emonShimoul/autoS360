@@ -3,11 +3,7 @@
 function autos360_bootstrapping(){
     load_theme_textdomain("autos360");
     register_nav_menu("mainmenu", __("Main Menu", "autos360"));
-    $alpha_custom_logo_defaults = array(
-        "width" => '100',
-        "height" => '100'
-    );
-    add_theme_support("custom-logo", $alpha_custom_logo_defaults);
+   
 
     // for logo
     $defaults = array(

@@ -1,8 +1,8 @@
 /* Slider container */
 .slider-container {
   position: relative;
-  width: 100%; /* Full width */
-  height: calc(100vh - 4rem); /* Full viewport height */
+  width: 90%;
+  height: 350px;
   margin: 0 auto;
   overflow: hidden; /* Hide overflowing content */
 }
