@@ -1,4 +1,4 @@
-<div class="banner-below py-12 px-20 flex justify-between gap-4 bg-primaryColor text-white">
+<div class="banner-below py-12 px-20 mb-8 flex justify-between gap-4 bg-primaryColor text-white">
     <div class="flex gap-4">
         <div class="flex items-center">
             <img class="w-20" src="https://i.ibb.co.com/w7YPPNm/below-banner-1.png" alt="">
