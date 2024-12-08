@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "starttailwind": "npx tailwindcss -i ./assets/styles/tailwind.css -o ./assets/styles/tailwind-output.css --watch",
+    "buildtailwind": "npx tailwindcss -i ./assets/styles/tailwind.css -o ./assets/styles/tailwind-output.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
