@@ -2,6 +2,7 @@
 
 function autos360_bootstrapping(){
     load_theme_textdomain("autos360");
+    add_theme_support("post-thumbnails");
     // register_nav_menu("mainmenu", __("Main Menu", "autos360"));
     register_nav_menu('primary-menu', __('Primary Menu', 'autos360'));
 
