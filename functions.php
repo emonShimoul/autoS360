@@ -46,3 +46,52 @@ function autos360_assets(){
 
 }
 add_action("wp_enqueue_scripts", "autos360_assets");
+
+// Register a Custom Post Type (Product)
+function create_product_post_type() {
+    register_post_type('product',
+        array(
+            'labels' => array(
+                'name' => __('Products'),
+                'singular_name' => __('Product')
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'supports' => array('title', 'editor', 'thumbnail'),
+            'rewrite' => array('slug' => 'products'),
+        )
+    );
+}
+add_action('init', 'create_product_post_type');
+
+// For Additional Meta Fields
+function product_meta_boxes() {
+    add_meta_box(
+        'product_details',
+        'Product Details',
+        'render_product_meta_box',
+        'product',
+        'normal',
+        'default'
+    );
+}
+add_action('add_meta_boxes', 'product_meta_boxes');
+
+function render_product_meta_box($post) {
+    // Retrieve current meta values
+    $price = get_post_meta($post->ID, '_product_price', true);
+
+    // Display fields
+    echo '<label for="product_price">Price: </label>';
+    echo '<input type="text" id="product_price" name="product_price" value="' . esc_attr($price) . '" />';
+}
+
+// Save meta fields
+function save_product_meta_fields($post_id) {
+    if (array_key_exists('product_price', $_POST)) {
+        update_post_meta($post_id, '_product_price', sanitize_text_field($_POST['product_price']));
+    }
+}
+add_action('save_post', 'save_product_meta_fields');
+
+
