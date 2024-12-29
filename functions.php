@@ -79,17 +79,17 @@ add_action('add_meta_boxes', 'product_meta_boxes');
 
 function render_product_meta_box($post) {
     // Retrieve current meta values
-    $price = get_post_meta($post->ID, '_product_price', true);
+    $model = get_post_meta($post->ID, '_product_model', true);
 
     // Display fields
-    echo '<label for="product_price">Price: </label>';
-    echo '<input type="text" id="product_price" name="product_price" value="' . esc_attr($price) . '" />';
+    echo '<label for="product_model">Model: </label>';
+    echo '<input type="text" id="product_model" name="product_model" value="' . esc_attr($model) . '" />';
 }
 
 // Save meta fields
 function save_product_meta_fields($post_id) {
-    if (array_key_exists('product_price', $_POST)) {
-        update_post_meta($post_id, '_product_price', sanitize_text_field($_POST['product_price']));
+    if (array_key_exists('product_model', $_POST)) {
+        update_post_meta($post_id, '_product_model', sanitize_text_field($_POST['product_model']));
     }
 }
 add_action('save_post', 'save_product_meta_fields');

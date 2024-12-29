@@ -41,3 +41,7 @@ Text Domain: autos360
   color: #d42c2e;
   background-color: #fff;
 }
+
+.product-image img {
+  border-radius: 20px;
+}

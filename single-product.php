@@ -2,16 +2,21 @@
 
 <div class="product">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <h1><?php the_title(); ?></h1>
-        <div class="product-image">
-            <?php the_post_thumbnail(); ?>
-        </div>
-        <div class="product-description">
-            <?php the_content(); ?>
-        </div>
-        <div class="product-price">
-            <strong>Price: </strong>
-            <?php echo get_post_meta(get_the_ID(), '_product_price', true); ?>
+        
+        <div class="flex gap-20 ms-28 my-20 justify-around">
+            <div class="product-image w-1/3">
+                <?php the_post_thumbnail(); ?>
+            </div>
+            <div class="w-2/3">
+                <h1 class="text-4xl font-bold mb-4"><?php the_title(); ?></h1>
+                <div class="product-description mb-4">
+                    <?php the_content(); ?>
+                </div>
+                <div class="product-model">
+                    <strong>Model: </strong>
+                    <?php echo get_post_meta(get_the_ID(), '_product_model', true); ?>
+                </div>
+            </div>
         </div>
     <?php endwhile; endif; ?>
 </div>

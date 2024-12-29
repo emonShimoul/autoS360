@@ -27,9 +27,10 @@
         </div>
 
         <div class="social-icon w-1/3 flex justify-end gap-8 text-3xl cursor-pointer">
-            <i class="fa-brands fa-facebook text-blue-600 hover:scale-125 transform transition duration-300"></i>
-            <i class="fa-brands fa-youtube text-primaryColor hover:scale-125 transform transition duration-300"></i>
-            <i class="fa-brands fa-instagram text-[#E1306C] hover:scale-125 transform transition duration-300"></i>
+            <a href="https://www.facebook.com/autos360live" target="_blank"><i class="fa-brands fa-facebook text-blue-600 hover:scale-125 transform transition duration-300"></i></a>
+            <a href="https://www.youtube.com/@autos360bd" target="_blank"><i class="fa-brands fa-youtube text-primaryColor hover:scale-125 transform transition duration-300"></i></a>
+            <a href="https://x.com/AutoS360Live" target="_blank"><i class="fa-brands fa-square-x-twitter text-[#E1306C] hover:scale-125 transform transition duration-300"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-instagram text-[#E1306C] hover:scale-125 transform transition duration-300"></i></a> -->
         </div>
     </header>
 
