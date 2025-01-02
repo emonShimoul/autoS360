@@ -36,17 +36,17 @@
         </div>
         <div class="w-[420px] bg-white pt-10 absolute left-20 top-24">
             <div class="px-10">
-                <p class="uppercase text-primaryColor font-semibold mb-1"><i class="fa-brands fa-think-peaks"></i> Our latest work</p>
-                <h4 class="text-2xl font-daysOneRegular uppercase mb-1">Subaru WRX STI Performance Parts</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec</p>
+                <p class="uppercase text-primaryColor font-semibold mb-1"><i class="fa-brands fa-think-peaks"></i> Our latest service</p>
+                <h4 class="text-2xl font-daysOneRegular uppercase mb-1">Purchase your Recondition Car</h4>
+                <p>We are your trusted partner for purchasing high-quality <strong>Japanese reconditioned cars</strong> and reliable recondition cars in Bangladesh.</p>
                 <ul class="mt-4">
-                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>Make: Subaru Impreza</li>
-                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>Submodel: 4 doors 2.0L 5MT AWD (152 HP)</li>
-                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>Engine: 2000 cc turbo tipe EJ20.</li>
-                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>Color: Blue</li>
+                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>With a commitment to excellence</li>
+                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>100% customer satisfaction</li>
+                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>We bring you the finest selection of vehicles</li>
+                    <li><i class="fa-regular fa-circle-dot text-sm me-2 text-primaryColor"></i>Our products meet your needs and budget</li>
                 </ul>
             </div>
-            <p class="bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white text-center py-4 mt-16 font-daysOneRegular">View Case Study</p>
+            <p class="bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white text-center py-4 mt-16 font-daysOneRegular">A Reliable Place for Car</p>
         </div>
     </div>
 </div>
