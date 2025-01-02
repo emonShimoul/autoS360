@@ -4,9 +4,9 @@
             <img src="https://i.ibb.co.com/bQtY7ZB/img-02.png" alt="Mechanic 1">
         </div>
         <div class="services-right w-1/2">
-            <p class="uppercase text-primaryColor font-semibold mb-1"><i class="fa-brands fa-think-peaks"></i> Who we are</p>
-            <h4 class="text-2xl font-daysOneRegular uppercase mb-1">Car Service repairs and maintenance Certified</h4>
-            <p class="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Turpis egestas sed tempus urna et pulvinar semleko</p>
+            <p class="uppercase text-primaryColor font-semibold mb-1"><i class="fa-brands fa-think-peaks"></i> What we Provide</p>
+            <h4 class="text-2xl font-daysOneRegular uppercase mb-1">Car LPG Conversion and Hybrid Car Maintenance</h4>
+            <p class="mb-8">We are experts in professional LPG conversion for cars and skilled maintenance for hybrid vehicles in Bangladesh. Our services aim to improve fuel efficiency, lower emissions, and guarantee optimal performance for your automobile.</p>
             <img src="https://i.ibb.co.com/1GN30b8/thumb-2.jpg" alt="Mechanic 2">
         </div>
     </div>
@@ -21,7 +21,7 @@
             </div>
             <div class="bg-white">
                 <img src="https://i.ibb.co.com/fHTBBRd/img-04.png" alt="Service 1">
-                <h5 class="py-3 text-center text-primaryColor font-daysOneRegular">Social Media Marketing</h5>
+                <h5 class="py-3 text-center text-primaryColor font-daysOneRegular">Promote Your Business</h5>
             </div>
             <div class="bg-white">
                 <img src="https://i.ibb.co.com/fxbxdh4/img-05.png" alt="Service 1">
