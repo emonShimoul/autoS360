@@ -3,7 +3,7 @@
         <p class="uppercase font-daysOneRegular mb-1"><i class="fa-brands fa-think-peaks"></i> make appointment</p>
         <div class="w-2/3">
             <h4 class="text-2xl font-daysOneRegular uppercase mb-1">Trust Our Service to Get You Back on the Road!</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar</p>
+            <p>Get in touch with our customer support team. Please fill in the form given below or Call Us. We aim to reply in less than 1 working day.</p>
         </div>
         <div class="mt-7 flex gap-4">
             <div class="flex items-center">
@@ -11,7 +11,7 @@
             </div>
             <div>
                 <h5 class="text-white uppercase font-daysOneRegular">Location</h5>
-                <p>1265 11th Ave Calgary Alberta Canada</p>
+                <p>100 feet Road, Baridhara, dhaka.</p>
             </div>
         </div>
 
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <h5 class=" text-white uppercase font-daysOneRegular">Email</h5>
-                <p>support@example.com</p>
+                <p>helpdiskbangla@gmail.com</p>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
             </div>
             <div>
                 <h5 class="text-white uppercase font-daysOneRegular">Phone</h5>
-                <p>62 123 4567 890</p>
+                <p>+880 1628-164451, +880 1706-753955</p>
             </div>
         </div>
     </div>

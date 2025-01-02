@@ -1,6 +1,6 @@
 <div class="autos360-footer bg-[#2B4448] text-white px-20 py-10 flex justify-between gap-8">
     <div class="w-2/5">
-        <h4 class="text-white font-daysOneRegular text-3xl">AutoS360</h4>
+        <h4 class="text-white font-daysOneRegular text-3xl"><span class="text-[#D42C2E]">AutoS</span>360</h4>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque repudiandae dolorem libero laborum deserunt, dicta debitis placeat vitae ab iusto nemo saepe natus quae vel ex rem quia esse illum qui ducimus aliquam odit fugit enim? Distinctio officia repellendus error quis maxime quisquam similique sed ipsa, iusto unde quaerat velit. </p>
         <p class="text-sm text-gray-400 mt-3">Copyright © 2020 AutoS360. All Rights Reserved.</p>
     </div>

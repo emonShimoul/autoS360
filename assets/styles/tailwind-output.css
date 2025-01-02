@@ -2050,6 +2050,11 @@ html {
   text-transform: uppercase;
 }
 
+.text-\[\#D42C2E\] {
+  --tw-text-opacity: 1;
+  color: rgb(212 44 46 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#E1306C\] {
   --tw-text-opacity: 1;
   color: rgb(225 48 108 / var(--tw-text-opacity, 1));
