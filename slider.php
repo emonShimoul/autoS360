@@ -5,7 +5,8 @@
     <div class="slide" style="background-color: #6bff9e;">Slide 3</div> -->
 
     <div class="slide">
-      <img src="https://i.ibb.co.com/1b9n7C8/slider-1.jpg" alt="">
+      <!--<img src="https://i.ibb.co.com/1b9n7C8/slider-1.jpg" alt="">-->
+      <img src="https://i.ibb.co.com/K5nRVWp/New-Year2025-Banner.jpg" alt="">
     </div>
     <div class="slide">
       <img src="https://i.ibb.co.com/s9nxRL2/slider-2.png" alt="">
