@@ -46,6 +46,20 @@ function autos360_assets(){
 }
 add_action("wp_enqueue_scripts", "autos360_assets");
 
+// adding product page slider js only
+function enqueue_product_slider_script() {
+    if (is_singular('product')) { // Only load on product pages
+        wp_enqueue_script(
+            'product-slider', 
+            get_template_directory_uri() . '/assets/js/product-slider.js', 
+            array(), 
+            null, 
+            true
+        );
+    }
+}
+add_action('wp_enqueue_scripts', 'enqueue_product_slider_script');
+
 // Register a Custom Post Type (Product)
 function create_product_post_type() {
     register_post_type('product',
