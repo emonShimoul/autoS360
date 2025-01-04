@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <?php wp_head(); ?>
 
-    <header class="flex justify-between gap-8 items-center px-20">
+    <header class="flex justify-between gap-8 items-center px-20 bg-white shadow-lg fixed top-4 w-full z-50 py-4">
 
         <!-- <h4 class="text-primaryColor font-daysOneRegular text-3xl">AutoS360</h4> -->
 

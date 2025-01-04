@@ -1699,6 +1699,10 @@ html {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -1721,6 +1725,30 @@ html {
 
 .top-2 {
   top: 0.5rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-auto {
@@ -1809,6 +1837,18 @@ html {
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .block {
