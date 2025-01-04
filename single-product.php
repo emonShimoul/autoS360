@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<div class="container mx-auto px-4 py-12">
+<div class="container mx-auto px-4 pb-12">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <!-- Product Header -->
-        <header class="text-center mb-12">
-            <h1 class="text-5xl font-bold text-gray-800"><?php the_title(); ?></h1>
-            <p class="text-gray-500 text-lg mt-2">
+        <header class="text-center mt-4 mb-12 bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white py-6">
+            <h1 class="text-4xl text-white font-bold font-daysOneRegular uppercase"><?php the_title(); ?></h1>
+            <p class="text-blue-100 mt-2">
                 <strong>Model: </strong><?php echo get_post_meta(get_the_ID(), '_product_model', true); ?>
             </p>
         </header>
