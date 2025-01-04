@@ -2,7 +2,7 @@
 
 <div>
     <!-- Page Header -->
-    <header class="bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white py-6 mt-4">
+    <header class="bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white py-6 mt-20">
         <div class="container mx-auto px-4 text-center">
         <h1 class="text-4xl text-white font-bold font-daysOneRegular uppercase">Our Cars</h1>
         <p class="text-blue-100 mt-2">Stay updated with our latest cars</p>

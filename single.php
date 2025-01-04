@@ -4,7 +4,7 @@ get_header();
 
 <div>
     <!-- Page Header -->
-    <header class="bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white py-8 mt-4">
+    <header class="bg-gradient-to-r from-[#D42C2E] to-gray-900 text-white py-8 mt-20">
         <div class="container mx-auto px-4 text-center">
             <h1 class="text-4xl font-bold font-daysOneRegular uppercase"><?php the_title(); ?></h1>
             <p class="text-blue-100 mt-2">

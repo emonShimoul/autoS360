@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container mx-auto px-4 pb-12">
+<div class="container mx-auto px-4 pb-12 mt-20">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <!-- Product Header -->
