@@ -50,7 +50,7 @@ get_header();
                     <h3 class="text-lg font-bold text-gray-800">
                         <?php 
                         // Display author name with a fallback text
-                        echo get_the_author() ?: 'Unknown Author'; 
+                        echo get_the_author_meta('display_name') ?: 'Unknown Author'; 
                         ?>
                     </h3>
                     <p class="text-gray-600">
