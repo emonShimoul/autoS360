@@ -75,10 +75,11 @@
 </div>
 
 <!-- Image Popup -->
-<div id="popup" class="fixed inset-0 bg-black bg-opacity-50 hidden justify-center items-center">
-    <div class="popup-content bg-white rounded-lg shadow-md p-4">
-        <img id="popup-image" src="" alt="Popup Image" class="w-full h-auto">
-        <button id="close-popup" class="absolute top-2 right-2 text-white bg-red-600 p-2 rounded-full">X</button>
+<div id="popup" class="fixed inset-0 bg-black bg-opacity-50 hidden flex justify-center items-center">
+    <div class="popup-content bg-white rounded-lg shadow-md p-4 relative">
+        <!-- The image will adjust to fit within the popup, maintaining its aspect ratio -->
+        <img id="popup-image" src="" alt="Popup Image" class="max-w-full max-h-[80vh] object-contain">
+        <button id="close-popup" class="absolute top-2 right-2 text-white bg-red-600 rounded-full w-8 h-8 text-center">X</button>
     </div>
 </div>
 
