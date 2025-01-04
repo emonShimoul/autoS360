@@ -45,3 +45,8 @@ Text Domain: autos360
 .product-image img {
   border-radius: 20px;
 }
+
+/* single-product css */
+.main-image-container img {
+  border-radius: 15px;
+}
