@@ -13,14 +13,42 @@
 
         <!-- Product Content -->
         <div class="flex flex-wrap lg:flex-nowrap gap-12 justify-center items-start">
-            <!-- Product Image -->
+            <!-- Product Image Slider -->
             <div class="w-full lg:w-1/2">
-                <div class="overflow-hidden rounded-lg shadow-md">
-                    <?php if (has_post_thumbnail()) : ?>
-                        <img src="<?php the_post_thumbnail_url('large'); ?>" alt="<?php the_title(); ?>" class="w-full h-auto object-cover">
-                    <?php else : ?>
-                        <img src="https://via.placeholder.com/800x600" alt="Placeholder Image" class="w-full h-auto object-cover">
-                    <?php endif; ?>
+                <div class="slider-container">
+                    <!-- Main Image Display -->
+                    <div id="main-image" class="overflow-hidden rounded-lg shadow-md mb-4">
+                        <?php
+                        $image1 = get_field('product_image_1');
+                        $image2 = get_field('product_image_2');
+                        $image3 = get_field('product_image_3');
+                        ?>
+
+                        <?php if ($image1): ?>
+                            <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" class="w-full h-auto object-cover main-image" data-image="1">
+                        <?php endif; ?>
+
+                        <?php if ($image2): ?>
+                            <img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" class="w-full h-auto object-cover main-image" data-image="2" style="display: none;">
+                        <?php endif; ?>
+
+                        <?php if ($image3): ?>
+                            <img src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>" class="w-full h-auto object-cover main-image" data-image="3" style="display: none;">
+                        <?php endif; ?>
+                    </div>
+
+                    <!-- Thumbnail Slider -->
+                    <div class="thumbnail-slider flex gap-2">
+                        <?php if ($image1): ?>
+                            <img src="<?php echo esc_url($image1['url']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" class="thumbnail w-20 h-20 cursor-pointer border border-gray-300 rounded" data-thumbnail="1">
+                        <?php endif; ?>
+                        <?php if ($image2): ?>
+                            <img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" class="thumbnail w-20 h-20 cursor-pointer border border-gray-300 rounded" data-thumbnail="2">
+                        <?php endif; ?>
+                        <?php if ($image3): ?>
+                            <img src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>" class="thumbnail w-20 h-20 cursor-pointer border border-gray-300 rounded" data-thumbnail="3">
+                        <?php endif; ?>
+                    </div>
                 </div>
             </div>
 
@@ -52,5 +80,31 @@
 
     <?php endwhile; endif; ?>
 </div>
+
+<!-- Slider Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const thumbnails = document.querySelectorAll('.thumbnail'); // Get all thumbnail images
+        const mainImages = document.querySelectorAll('.main-image'); // Get all images in the main image container
+
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', function () {
+                // Get the index of the clicked thumbnail (using data-thumbnail)
+                const selectedImage = this.getAttribute('data-thumbnail');
+
+                // Hide all images
+                mainImages.forEach(image => {
+                    image.style.display = 'none';
+                });
+
+                // Show the selected image
+                const selectedMainImage = document.querySelector(`.main-image[data-image="${selectedImage}"]`);
+                if (selectedMainImage) {
+                    selectedMainImage.style.display = 'block';
+                }
+            });
+        });
+    });
+</script>
 
 <?php get_footer(); ?>
