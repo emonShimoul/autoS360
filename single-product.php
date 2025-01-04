@@ -65,7 +65,7 @@
         </div>
 
         <!-- Back to Products Button -->
-        <div class="text-center mt-12">
+        <div class="text-center mt-8">
             <a href="<?php echo get_post_type_archive_link('product'); ?>" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700">
                 Back to All Products
             </a>
