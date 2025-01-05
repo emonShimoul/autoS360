@@ -6,8 +6,6 @@
 
     <header class="flex justify-between gap-8 items-center px-20 bg-white shadow-lg fixed top-4 w-full z-50 py-4">
 
-        <!-- <h4 class="text-primaryColor font-daysOneRegular text-3xl">AutoS360</h4> -->
-
         <?php if(current_theme_supports( "custom-logo" )): ?>
             <div class="header-logo my-2">
                 <?php the_custom_logo(); ?>
@@ -30,7 +28,6 @@
             <a href="https://www.facebook.com/autos360live" target="_blank"><i class="fa-brands fa-facebook text-blue-600 hover:scale-125 transform transition duration-300"></i></a>
             <a href="https://www.youtube.com/@autos360bd" target="_blank"><i class="fa-brands fa-youtube text-primaryColor hover:scale-125 transform transition duration-300"></i></a>
             <a href="https://x.com/AutoS360Live" target="_blank"><i class="fa-brands fa-square-x-twitter text-[#E1306C] hover:scale-125 transform transition duration-300"></i></a>
-            <!-- <a href=""><i class="fa-brands fa-instagram text-[#E1306C] hover:scale-125 transform transition duration-300"></i></a> -->
         </div>
     </header>
 
