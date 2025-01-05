@@ -15,9 +15,9 @@
     <div class="w-1/5 text-lg flex flex-col gap-4 items-end">
         <a href="#">About Us</a>
         <a href="#">Contact Us</a>
-        <a href="#">Privacy Policy</a>
+        <a href="#">Our Services</a>
+        <a href="#">Our Clients</a>
         <a href="#">Terms & Condition</a>
-        <a href="#">Warranty Policy</a>
     </div>
 </div>
 
