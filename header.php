@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <?php wp_head(); ?>
 
-    <header class="flex justify-between gap-8 items-center px-20 bg-white shadow-lg fixed top-4 w-full z-50 py-4">
+    <header class="flex justify-between gap-8 items-center px-20 bg-white shadow-lg fixed top-0 w-full z-50 pb-4">
 
         <?php if(current_theme_supports( "custom-logo" )): ?>
             <div class="header-logo my-2">

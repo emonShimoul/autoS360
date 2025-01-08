@@ -21,6 +21,7 @@
                         $image1 = get_field('product_image_1');
                         $image2 = get_field('product_image_2');
                         $image3 = get_field('product_image_3');
+                        $image4 = get_field('product_image_4');
                         ?>
 
                         <?php if ($image1): ?>
@@ -40,6 +41,9 @@
                         <?php endif; ?>
                         <?php if ($image3): ?>
                             <img src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>" class="thumbnail w-20 h-20 cursor-pointer border border-gray-300 rounded" data-thumbnail="3">
+                        <?php endif; ?>
+                        <?php if ($image4): ?>
+                            <img src="<?php echo esc_url($image4['url']); ?>" alt="<?php echo esc_attr($image4['alt']); ?>" class="thumbnail w-20 h-20 cursor-pointer border border-gray-300 rounded" data-thumbnail="3">
                         <?php endif; ?>
                     </div>
                 </div>
