@@ -6,7 +6,7 @@
 
     <div class="slide">
       <!--<img src="https://i.ibb.co.com/1b9n7C8/slider-1.jpg" alt="">-->
-      <img src="https://i.ibb.co.com/K5nRVWp/New-Year2025-Banner.jpg" alt="">
+      <img src="https://i.ibb.co.com/nf6MC5N/web-slider.png" alt="">
     </div>
     <div class="slide">
       <img src="https://i.ibb.co.com/s9nxRL2/slider-2.png" alt="">
