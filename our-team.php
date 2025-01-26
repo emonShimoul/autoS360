@@ -1,10 +1,10 @@
-<div class="p-20">
+<div class="p-10">
     <div class="text-center mb-16">
         <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
             THE TEAM
         </p>
         <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-            Meet Our <span class="text-indigo-600">Team</span>
+            Meet Our <span class="text-[#D42C2E]">Team</span>
         </h3>
     </div>
 
@@ -14,7 +14,7 @@
         <div class="text-center">
             <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://loremflickr.com/320/320/girl"></a>
 
-            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">john doe</a>
+            <a href="#" class="hover:text-[#D42C2E] text-gray-900 font-semibold">john doe</a>
             <p class="text-gray-500 uppercase text-sm">Web Developer</p>
 
             <div class="my-4 flex justify-center items-center">

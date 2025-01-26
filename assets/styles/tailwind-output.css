@@ -2219,6 +2219,10 @@ html {
   padding: 2rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -2551,6 +2555,11 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-\[\#D42C2E\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(212 44 46 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
