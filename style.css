@@ -35,9 +35,9 @@ Text Domain: autos360
   text-transform: uppercase;
   cursor: pointer;
 }
-/* Hover effects */
+
 .nav-bar ul li:hover {
-  transform: scale(1.25); /* hover:scale-125 */
+  transform: scale(1.25);
   color: #d42c2e;
   background-color: #fff;
 }
