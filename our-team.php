@@ -75,7 +75,7 @@
 
         </div>
         <div class="text-center">
-            <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://loremflickr.com/320/320/girl"></a>
+            <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.ibb.co.com/whnKnfg/majhar.jpg"></a>
 
             <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">Majharul Islam</a>
             <p class="text-gray-500 uppercase text-sm">Manager</p>
@@ -201,10 +201,10 @@
 
         </div>
         <div class="text-center">
-            <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://loremflickr.com/320/320/girl"></a>
+            <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://i.ibb.co.com/X51vYF3/shimul.jpg"></a>
 
             <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">Emon Shimoul</a>
-            <p class="text-gray-500 uppercase text-sm">Developer</p>
+            <p class="text-gray-500 uppercase text-sm">Website Developer</p>
 
             <div class="my-4 flex justify-center items-center">
                 <a href="#">
