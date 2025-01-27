@@ -77,7 +77,7 @@
         <div class="text-center">
             <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://loremflickr.com/320/320/girl"></a>
 
-            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">john doe</a>
+            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">Majharul Islam</a>
             <p class="text-gray-500 uppercase text-sm">Manager</p>
 
             <div class="my-4 flex justify-center items-center">
@@ -140,8 +140,8 @@
         <div class="text-center">
             <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://loremflickr.com/320/320/girl"></a>
 
-            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">john doe</a>
-            <p class="text-gray-500 uppercase text-sm">Editor</p>
+            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">Tonmoy Goblin</a>
+            <p class="text-gray-500 uppercase text-sm">Sales Officer</p>
 
             <div class="my-4 flex justify-center items-center">
                 <a href="#">
@@ -203,7 +203,7 @@
         <div class="text-center">
             <a href="#"><img class="mb-3 rounded-xl mx-auto h-32 w-32" src="https://loremflickr.com/320/320/girl"></a>
 
-            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">john doe</a>
+            <a href="#" class="hover:text-indigo-500 text-gray-900 font-semibold">Emon Shimoul</a>
             <p class="text-gray-500 uppercase text-sm">Developer</p>
 
             <div class="my-4 flex justify-center items-center">
