@@ -1,7 +1,7 @@
 <div class="p-10">
     <div class="text-center mb-16">
         <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
-            THE TEAM
+            Our TEAM
         </p>
         <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
             Meet Our <span class="text-[#D42C2E]">Team</span>
