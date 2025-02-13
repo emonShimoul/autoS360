@@ -1857,10 +1857,6 @@ html {
   height: 12rem;
 }
 
-.h-72 {
-  height: 18rem;
-}
-
 .h-8 {
   height: 2rem;
 }
@@ -1871,6 +1867,10 @@ html {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .max-h-\[80vh\] {
@@ -1937,6 +1937,14 @@ html {
   width: 100%;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -1970,8 +1978,12 @@ html {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -2020,6 +2032,10 @@ html {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-8 {
@@ -2199,8 +2215,8 @@ html {
      object-fit: cover;
 }
 
-.p-20 {
-  padding: 5rem;
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-3 {
@@ -2217,10 +2233,6 @@ html {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .px-10 {
@@ -2475,11 +2487,6 @@ html {
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
-.text-indigo-600 {
-  --tw-text-opacity: 1;
-  color: rgb(79 70 229 / var(--tw-text-opacity, 1));
-}
-
 .text-primaryColor {
   --tw-text-opacity: 1;
   color: rgb(212 44 46 / var(--tw-text-opacity, 1));
@@ -2547,6 +2554,11 @@ html {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:text-\[\#D42C2E\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(212 44 46 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-indigo-500:hover {
   --tw-text-opacity: 1;
   color: rgb(99 102 241 / var(--tw-text-opacity, 1));
@@ -2555,11 +2567,6 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-\[\#D42C2E\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(212 44 46 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
@@ -2583,10 +2590,6 @@ html {
 }
 
 @media (min-width: 640px) {
-  .sm\:grid {
-    display: grid;
-  }
-
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2596,10 +2599,6 @@ html {
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:text-5xl {
