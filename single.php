@@ -17,10 +17,6 @@ get_header();
     <!-- Single Blog Content Section -->
     <main class="container mx-auto px-4 py-12">
         <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-            <?php if (has_post_thumbnail()) { ?>
-                <img src="<?php the_post_thumbnail_url('large'); ?>" alt="<?php the_title(); ?>" class="w-full h-72 object-cover">
-            <?php } ?>
-
             <div class="p-6">
                 <article>
                     <!-- Blog Content -->
